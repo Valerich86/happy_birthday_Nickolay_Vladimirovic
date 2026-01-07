@@ -169,29 +169,27 @@ export default function Home() {
         gap: '15px'
       }}>
         {/* Кнопка воспроизведения/паузы */}
-        <button
+        {/* <button
           onClick={togglePlay}
+          className='md:h-[40px] md:w-[40px] h-[20px] w-[20px] rounded-full'
           style={{
             backgroundColor: '#fff',
             border: 'none',
-            width: '40px',
-            height: '40px',
-            borderRadius: '50%',
             cursor: 'pointer'
           }}
         >
           {state.isPlaying ? '❚❚' : '▶'}
-        </button>
+        </button> */}
 
         {/* Прогресс‑бар */}
-        <input
+        {/* <input
           type="range"
           min="0"
           max={state.duration || 100}
           value={state.currentTime}
           onChange={handleSeek}
           style={{ flex: 1 }}
-        />
+        /> */}
 
         {/* Отображение времени */}
         <span style={{ color: '#fff', minWidth: '60px' }}>
