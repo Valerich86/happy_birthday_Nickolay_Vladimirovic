@@ -14,6 +14,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Музыкальная открытка от Дмитрия",
+  openGraph: {
+    siteName: ""
+  }
 };
 
 export default function RootLayout({
